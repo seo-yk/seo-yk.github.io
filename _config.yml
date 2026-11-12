@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: seo-yk Devlog # the main title
 
-tagline: since 2025.12 · moved 2026.11 # it will display as the subtitle
+tagline: 2026.11 블로그 이전 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   seo-yk's Devlog
@@ -31,7 +31,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Youkyung Seo
+  name: 60
   email: s_yk@naver.com # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
@@ -85,7 +85,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: dark # [light | dark]
+theme_mode: light # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -95,7 +95,7 @@ theme_mode: dark # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpeg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
