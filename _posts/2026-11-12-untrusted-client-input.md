@@ -1,9 +1,9 @@
 ---
-title: "모의해킹 #1: 게시글 번호를 바꿔봤는데 다른 회사 글이 지워졌다"
+title: "보안검증 #1: 게시글 번호를 바꿔봤는데 다른 회사 글이 지워졌다"
 date: 2026-11-12 13:15:00 +0900
 categories: [Backend, Security]
-tags: [모의해킹, 접근제어, 계정열거, 경로조작, java, spring]
-description: 권한 검증 누락, 계정 열거, 경로 조작을 조치하며 찾은 세 취약점의 공통 원인
+tags: [보안검증, 모의해킹, 접근제어, 계정열거, 경로조작, java, spring]
+description: 모의해킹에서 지적된 권한 검증 누락, 계정 열거, 경로 조작의 공통 원인
 mermaid: true
 ---
 
