@@ -5,6 +5,8 @@
   $theme: '{{ site.theme_mode }}'
 );
 
+@use 'themes/dark' as dark-theme;
+
 /* prettier-ignore */
 @use 'main
 {%- if jekyll.environment == 'production' -%}
@@ -13,3 +15,31 @@
 ';
 
 /* append your custom style below */
+
+/* mermaid 다이어그램: 라이트·다크 모드와 관계없이 같은 어두운 배경 */
+pre.mermaid,
+div.mermaid {
+  background: #3c3d3d !important;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1rem;
+  text-align: center;
+}
+
+/* 코드 블록: 라이트·다크 모드와 관계없이 다크 문법 색 + 다이어그램과 같은 배경 */
+div[class^='language-']:not(.language-mermaid) {
+  @include dark-theme.styles;
+
+  --highlight-bg-color: #3c3d3d;
+  --language-border-color: transparent;
+  --code-header-text-color: #a8a8a8;
+  --code-header-muted-color: #5a5b5b;
+  --code-header-icon-color: #a8a8a8;
+
+  color: var(--highlighter-rouge-color);
+
+  .highlight,
+  .highlight .w {
+    background-color: var(--highlight-bg-color);
+  }
+}
