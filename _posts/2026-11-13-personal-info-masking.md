@@ -36,7 +36,7 @@ mermaid: true
 2. **마스킹은 서버가 합니다.** 마스킹을 해제하지 않으면 응답에 원문이 아예 들어가지 않습니다.
 3. **마스킹을 해제하면 기록합니다.** 마스킹 해제 목적과 누가 언제 조회했는지를 남기고, 이상한 조회는 접속기록 시스템의 알람으로 확인합니다.
 
-처음 만든 구조는 서버가 원문을 응답하고, 화면에서 가리는 방식이었습니다. 화면에는 `홍*동`이 보여도, 브라우저 개발자 도구를 열면 응답 안의 `홍길동`이 보입니다. 결국 모든 관리자가 원문을 받는 셈이라, 해제 기록을 남겨도 소용이 없었습니다. 저는 응답에 원문이 들어 있는 한 화면에서 가리는 것은 의미가 없다고 판단했고, 마스킹 처리 위치를 서버로 옮겼습니다.
+처음 만든 구조는 서버가 원문을 응답하고, 화면에서 가리는 방식이었습니다. 화면에는 `홍*동`이 보여도, 브라우저 개발자 도구를 열면 응답 안의 `홍길동`이 보입니다. 결국 모든 관리자가 원문을 받는 셈이라, 해제 기록을 남겨도 소용이 없었습니다. 저는 **응답에 원문이 들어 있는 한 화면에서 가리는 것은 의미가 없다**고 판단했고, 마스킹 처리 위치를 서버로 옮겼습니다.
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'fontFamily':'inherit','background':'#3c3d3d','primaryColor':'#202121','primaryBorderColor':'#cfcfcf','primaryTextColor':'#e8e8e8','lineColor':'#cfcfcf','textColor':'#e8e8e8','actorBkg':'#202121','actorBorder':'#cfcfcf','actorTextColor':'#e8e8e8','actorLineColor':'#cfcfcf','signalColor':'#cfcfcf','signalTextColor':'#e8e8e8','noteBkgColor':'#484949','noteBorderColor':'#5c5c5c','noteTextColor':'#d0d0d0','labelBoxBkgColor':'#202121','labelBoxBorderColor':'#cfcfcf','labelTextColor':'#e8e8e8','loopTextColor':'#e8e8e8','edgeLabelBackground':'#3c3d3d','clusterBkg':'#484949','clusterBorder':'#5c5c5c'}}}%%
