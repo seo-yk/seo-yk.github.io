@@ -1,77 +1,30 @@
-<!-- markdownlint-disable-next-line -->
-<div align="center">
+# seo-yk Devlog
 
-  <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+https://seo-yk.github.io
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+Java와 Spring 기반의 백엔드 개발을 하며 운영 환경에서 마주한 문제와 해결 과정, 그리고 그 안에서 배운 점을 기록하는 블로그입니다. 4년간 실무를 수행하며 직접 기록해 둔 업무 메모를 바탕으로, AI를 활용해 초고를 구조화하고 한 편씩 글로 다듬어 옮기고 있습니다.
 
-  [![CI][badge-ci]][ci]&nbsp;
-  [![Codacy Badge][badge-codacy]][codacy]&nbsp;
-  [![GitHub license][badge-license]][license]&nbsp;
-  [![Gem Version][badge-gem]][gem]&nbsp;
-  [![Open in Dev Containers][badge-open-container]][open-container]
+글마다 어떤 증상이 있었고, 왜 발생했으며, 어떤 기준으로 해결책을 선택했는지 의사결정의 맥락을 남기는 데 집중합니다. 주로 다중 서버 환경에서의 동시성과 데이터 정합성, 외부 시스템 연계, 성능 최적화, 권한 검증처럼 운영 서비스의 안정성과 직결된 주제들을 다룹니다.
 
-  [**Live Demo** →][demo]
+대형 통신사의 클라우드 서비스(CMS·API)를 개발·운영했으며, 금융사 B2B용 OpenAPI 포털과 공공기관 업무 시스템을 구축했습니다. 백오피스 및 핵심 업무 로직 설계부터 모의해킹 취약점 조치, 컨테이너 플랫폼 기반의 배포·운영까지 서비스의 개발과 운영 전반을 책임졌습니다.
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+최근에는 AI 아키텍처 설계와 서비스 구축으로 역량을 확장하고 있습니다. Python을 기반으로 벡터 DB와 Ollama, 파운데이션 모델을 연동해 RAG 파이프라인을 직접 구축하며, 가드레일 설계와 평가 파이프라인까지 프로덕션 환경에 적용 가능한 AI 시스템을 설계하고 있습니다.
 
-</div>
+## Tech Stack
 
-## Features
+### Backend
+Java, Spring Boot, Spring Security (OAuth2), Spring Data JPA, PostgreSQL, Redis, Thymeleaf, Apache POI, Swagger
 
-- **Design & UX** - Responsive layout, Dark/Light modes, Localized UI language,
-  and Dark mode images.
-- **Content Management** - Pinned posts, Hierarchical categories, Trending tags,
-  Auto-generated Table of Contents, and Last modified dates.
-- **Rich Text Support** - Syntax highlighting, Mathematical expressions, Mermaid
-  diagrams & flowcharts, and Embedded media.
-- **Interactivity & Outreach** - Built-in search, Multiple comment systems, and
-  Atom feeds.
-- **System & Optimization** - PWA support, integrated Web analytics, and
-  advanced SEO performance.
+### Frontend
+Vue 2 (Vuex, Vue Router), Vue 3 (Composition API, Pinia, Vite, Vuetify)
 
-## Documentation
+### Infra & DevOps
+OpenShift (OKD), Docker, Tomcat, Jenkins, GitBucket, SVN, k6
 
-To learn how to use, develop, and upgrade the project, please refer to the
-[Wiki][wiki].
+### AI
+Python, RAG, Vector DB (FAISS), Embedding (bge-m3), OpenAI API, Gemini API, Ollama, Streamlit
 
-## Contributing
+→ [gosi-rag](https://github.com/seo-yk/gosi-rag)
 
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the
-open-source community such an amazing place to learn, inspire, and create. Any
-contributions you make are greatly appreciated.
-For details, please refer to our [Contributing Guidelines][contribute-guide].
-
-## Credits
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and integrates a
-collection of [excellent libraries][lib]. Its avatar and favicon are sourced
-from [ClipartMAX][clipartmax].
-
-Furthermore, thanks to everyone who contributed to the development of this project!
-
-[![all-contributors][contributors-avatar]][contributors]
-
-## License
-
-This project is licensed under the [MIT License][license].
-
-[badge-ci]: https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github
-[badge-codacy]: https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy
-[badge-license]: https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod
-[badge-gem]: https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange
-[badge-open-container]: https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[open-container]: https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/cotes2020/jekyll-theme-chirpy
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[contributors-avatar]: https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16&max=112
-[lib]: https://github.com/cotes2020/chirpy-static-assets
+## Contact
+- Email: s_yk@naver.com
