@@ -1,4 +1,4 @@
-# seo-yk Devlog
+# About
 
 https://seo-yk.github.io
 
@@ -12,19 +12,10 @@ Java와 Spring 기반의 백엔드 개발을 하며 운영 환경에서 마주�
 
 ## Tech Stack
 
-### Backend
-Java, Spring Boot, Spring Security (OAuth2), Spring Data JPA, PostgreSQL, Redis, Thymeleaf, Apache POI, Swagger
-
-### Frontend
-Vue 2 (Vuex, Vue Router), Vue 3 (Composition API, Pinia, Vite, Vuetify)
-
-### Infra & DevOps
-OpenShift (OKD), Docker, Tomcat, Jenkins, GitBucket, SVN, k6
-
-### AI
-Python, RAG, Vector DB (FAISS), Embedding (bge-m3), OpenAI API, Gemini API, Ollama, Streamlit
-
-→ [gosi-rag](https://github.com/seo-yk/gosi-rag)
+- Backend: Java, Spring Boot, Spring Security (OAuth2), Spring Data JPA, PostgreSQL, Redis, Thymeleaf, Apache POI, Swagger
+- Frontend: Vue 2 (Vuex, Vue Router), Vue 3 (Composition API, Pinia, Vite, Vuetify)
+- Infra & DevOps: OpenShift (OKD), Docker, Tomcat, Jenkins, GitBucket, SVN, k6
+- AI: Python, RAG, Vector DB (FAISS), Embedding (bge-m3), OpenAI API, Gemini API, Ollama, Streamlit [활용 프로젝트: [gosi-rag](https://github.com/seo-yk/gosi-rag)]
 
 ## Contact
 - Email: s_yk@naver.com
