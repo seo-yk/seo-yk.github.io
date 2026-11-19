@@ -1,5 +1,5 @@
 ---
-title: 
+title: "RAG 챗봇 평가기 #1: 답이 틀리면 검색 탓일까, 생성 탓일까"
 date: 2026-11-18 18:00:00 +0900
 categories: [AI, RAG]
 tags: [rag, 임베딩, faiss, bge-m3, llm-as-a-judge, ollama, 평가, python]
