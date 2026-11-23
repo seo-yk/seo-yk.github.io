@@ -24,6 +24,8 @@ div.mermaid {
   border-radius: 0.5rem;
   padding: 1.25rem 1rem;
   text-align: center;
+  /* pre의 고정폭 글꼴을 쓰면 노드 크기 계산(본문 글꼴)과 표시 글꼴이 달라 글자가 잘림 */
+  font-family: "Source Sans Pro", "Microsoft Yahei", sans-serif;
 }
 
 /* 코드 블록: 라이트·다크 모드와 관계없이 다크 문법 색 + 다이어그램과 같은 배경 */
